@@ -1,0 +1,12 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+#app-wrapper {
+    width: 100%;
+    height: 100vh;
+}
