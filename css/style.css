@@ -76,7 +76,34 @@ main {
     vertical-align: middle;
 }
 
+/* Playlist */
+.playlist-container {
+    padding-left: 40px;
+}
 
+.playlist-title {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.create-playlist a {
+    color: #686868;
+}
+
+.create-playlist a:hover {
+    color: white;
+}
+
+.playlist-icon>a {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.playlist-icon {
+    width: 40px;
+    display: inline-block;
+}
    
 /* FOOTER GENERAL */
 
@@ -98,6 +125,7 @@ footer {
 
     .nav-icon {
         width: 70%;
+        padding: 5px 0;
     }
 
     .main-content {
