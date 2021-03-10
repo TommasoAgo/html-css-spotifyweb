@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpotifyWeb</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,11 +27,37 @@
 
                 <!-- Navbar -->
                 <div class="navbar">
-                    <div class="logo">
+
+                    <!-- Logo -->
+                    <div class="logo xs-hidden">
                         <a href="#">
                             <img src="img/logo.svg" alt="LogoSpotify">
                         </a>
                     </div>
+
+                    <!-- Home Library -->
+                    <nav class="home">
+                        <ul class="home-lib">
+                            <li class="home-element">
+                                <div class="nav-icon">
+                                    <a href="#"><img src="img/home.svg" alt="Home"></a>
+                                </div>
+                                <a class="bold xs-hidden" href="#">Home</a>
+                            </li>
+                            <li class="home-element">
+                                <div class="nav-icon">
+                                    <a href="#"><img src="img/search.svg" alt="Search"></a>
+                                </div>
+                                <a class="bold xs-hidden" href="#">Cerca</a>
+                            </li>
+                            <li class="home-element">
+                                <div class="nav-icon">
+                                    <a href="#"><img src="img/libreria.svg" alt="Libreria"></a>
+                                </div>
+                                <a class="bold xs-hidden" href="#">La tua libreria</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
 
                 <!-- Main Content -->

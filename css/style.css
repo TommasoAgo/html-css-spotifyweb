@@ -5,10 +5,27 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 /* COMMON */
 #app-wrapper {
     width: 100%;
     height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+/* Text */
+.bold {
+    font-weight: bold;
 }
 
 /* MAIN GENERAL */
@@ -21,11 +38,20 @@ main {
     width: 100%;
     height: 100%;
 }
+
+/* Main Content */
  
 .main-content {
     width: calc( 100% - 220px);
     height: 100%;
     overflow-y: auto;
+}
+
+/* Navbar */
+
+/* Logo */
+.logo {
+    padding: 10px 40px;
 }
 
 .navbar {
@@ -34,27 +60,32 @@ main {
     height: 100%;
     background-color: black;
 }
-   
 
-.main-content {
-    /* TEST */
-    background-color: chartreuse;;
+.navbar a {
+    color: #686868;
+    text-decoration: none;
+    font-size: 12px;
 }
 
+.home-lib>.home-element {
+    padding: 5px 0;
+}
+
+/* Nav Icons */
+.nav-icon {
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+   
 /* FOOTER GENERAL */
 
 footer {
     height: 70px;
     overflow: hidden;
-
-    /* TEST */
-    background-color: black;
-}
-
-
-/* Logo */
-.logo {
-    padding: 10px 40px;
+    background-color: #282828;
 }
 
 /* MEDIA QUERY XS */
@@ -63,11 +94,16 @@ footer {
         width: 50px;
     }
 
-    .logo {
+    .xs-hidden {
         display: none;
+    }
+
+    .nav-icon {
+        width: 70%;
     }
 
     .main-content {
         width: calc( 100% - 50px);
     }
+
 }
