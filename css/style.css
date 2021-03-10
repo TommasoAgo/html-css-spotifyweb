@@ -54,6 +54,8 @@ main {
     padding: 10px 40px;
 }
 
+/* Nav Menu */
+
 .navbar {
     width: 220px;
     float: left;
@@ -65,10 +67,6 @@ main {
     color: #686868;
     text-decoration: none;
     font-size: 12px;
-}
-
-.home-lib>.home-element {
-    padding: 5px 0;
 }
 
 /* Nav Icons */
@@ -106,4 +104,23 @@ footer {
         width: calc( 100% - 50px);
     }
 
+}
+
+/* MEDIA QUERY XS > */
+@media all and (min-width: 560px) {
+    .logo-small {
+        display: none;
+    }
+
+    .home-element {
+        padding: 5px 0 5px 40px;
+    }
+
+    .home-element:hover {
+        border-left: 3px solid #adff2f;
+    }
+
+    .home-element>a:hover {
+        color: white;
+    }
 }
