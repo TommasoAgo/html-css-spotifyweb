@@ -10,3 +10,64 @@
     width: 100%;
     height: 100vh;
 }
+
+/* MAIN GENERAL */
+
+main {
+    height: calc( 100% - 70px );
+}
+
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+}
+ 
+.main-content {
+    width: calc( 100% - 220px);
+    height: 100%;
+    overflow-y: auto;
+}
+
+.navbar {
+    width: 220px;
+    float: left;
+    height: 100%;
+    background-color: black;
+}
+   
+
+.main-content {
+    /* TEST */
+    background-color: chartreuse;;
+}
+
+/* FOOTER GENERAL */
+
+footer {
+    height: 70px;
+    overflow: hidden;
+
+    /* TEST */
+    background-color: black;
+}
+
+
+/* Logo */
+.logo {
+    padding: 10px 40px;
+}
+
+/* MEDIA QUERY XS */
+@media all and (max-width: 560px) {
+    .navbar {
+        width: 50px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .main-content {
+        width: calc( 100% - 50px);
+    }
+}
