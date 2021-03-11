@@ -114,9 +114,10 @@ footer {
 }
 
 /* MEDIA QUERY XS */
-@media all and (max-width: 560px) {
+@media all and (max-width: 600px) {
     .navbar {
         width: 50px;
+        text-align: center;
     }
 
     .xs-hidden {
