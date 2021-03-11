@@ -187,6 +187,7 @@ footer {
     .navbar {
         width: 50px;
         text-align: center;
+        justify-content: space-between;
     }
 
     .xs-hidden {
@@ -202,11 +203,14 @@ footer {
         width: calc( 100% - 50px);
     }
 
+    .install-app {
+        border-bottom: 0;
+    }
 }
 
 /* MEDIA QUERY XS > */
 @media all and (min-width: 600px) {
-    .logo-small {
+    .lg-hidden {
         display: none;
     }
 
