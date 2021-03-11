@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* COMMON */
 #app-wrapper {
     width: 100%;
@@ -55,6 +59,33 @@ main {
     width: calc( 100% - 220px);
     height: 100%;
     overflow-y: auto;
+    background-color: #141922;
+}
+
+/* Main Menu */
+.main-menu {
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-menu li {
+    padding: 10px;
+}
+
+.main-menu a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #686868;
+}
+
+/* Main Menu Selector */
+.bottom-selection {
+    height: 2px;
+    width: 30px;
+    background-color: #adff2f;
+    margin: auto;
+    border-radius: 5px;
 }
 
 /* Navbar */
@@ -76,7 +107,6 @@ main {
 
 .navbar a {
     color: #686868;
-    text-decoration: none;
     font-size: 10px;
 }
 
