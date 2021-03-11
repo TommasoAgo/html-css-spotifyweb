@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 100%;
-}
-
 /* COMMON */
 #app-wrapper {
     width: 100%;
@@ -36,6 +32,10 @@ body {
 
 .hover-white:hover {
     color: white;
+}
+
+.white {
+    color: white !important;
 }
 
 /* MAIN GENERAL */
@@ -71,14 +71,17 @@ main {
     float: left;
     height: 100%;
     background-color: black;
-    display: flex;
-    flex-direction: column;
+    overflow: hidden;
 }
 
 .navbar a {
     color: #686868;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.nav-icon img {
+    width: 100%;
 }
 
 /* Nav Icons */
@@ -88,25 +91,40 @@ main {
     vertical-align: middle;
 }
 
+.playlist-icon {
+    width: 40px;
+    display: inline-block;
+}
+
+.small-icon {
+    width: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 /* Playlist */
 .playlist-container {
     min-height: 100px;
     flex-grow: 1;
-    padding-left: 40px;
+    padding-left: 20px;
+    overflow: hidden;
 }
 
 
 .playlist-title {
     color: white;
     text-transform: uppercase;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .playlist>ul {
     list-style-type: none;
-    overflow-y: auto;
 }
 
+.playlist ul>li {
+    padding: 3px 0;
+}
 
 .create-playlist a {
     color: #686868;
@@ -117,17 +135,43 @@ main {
     vertical-align: middle;
 }
 
-.playlist-icon {
-    width: 40px;
-    display: inline-block;
+.playlist {
+    max-height: 70%;
+    overflow-y: auto;
 }
-
 
 /* Navbar Footer */
 .navbar-footer {
     height: 70px;
-    /* TEST */
-    background-color: blue;
+    background-color: black;
+    padding: 0px 15px 0px 20px;
+}
+
+.install-app,
+.user-profile {
+    padding: 5px 0;
+}
+
+/* Install App */
+.install-app {
+    border-bottom: 1px solid lightgrey;
+}
+
+/* John Doe */
+.profile-img {
+    background-color: grey;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1px;
+    margin-right: 10px;
+}
+
+.profile-img img {
+    width: 80%;
 }
    
 /* FOOTER GENERAL */
@@ -167,7 +211,7 @@ footer {
     }
 
     .home-element {
-        padding: 5px 0 5px 40px;
+        padding: 5px 0 5px 20px;
     }
 
     .selected {
