@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+.circle {
+    border-radius: 50%;
+}
+
 /* COMMON */
 #app-wrapper {
     width: 100%;
@@ -99,6 +103,12 @@ main {
 /* Music */
 .music {
     flex-wrap: wrap;
+}
+
+.played-title>p {
+    font-size: 10px;
+    color: #686868;
+    padding-top: 10px;
 }
 
 /* Songs */
