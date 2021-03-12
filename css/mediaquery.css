@@ -1,0 +1,64 @@
+/* MEDIA QUERY XS */
+@media all and (max-width: 560px) {
+    /* Common */
+    .navbar {
+        width: 50px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .xs-hidden {
+        display: none;
+    }
+
+    .nav-icon {
+        width: 70%;
+        padding: 5px 0;
+    }
+
+    /* Main Content */
+    .main-content {
+        width: calc( 100% - 50px);
+    }
+
+    /* Install App */
+    .install-app {
+        border-bottom: 0;
+    }
+
+    /* Songs */
+    .song {
+        flex-basis: calc( 100% / 2 );
+    }
+}
+
+/* MEDIA QUERY XS > */
+@media all and (min-width: 560px) {
+    .lg-hidden {
+        display: none;
+    }
+
+    .home-element {
+        padding: 5px 0 5px 20px;
+    }
+
+    .selected {
+        border-left: 3px solid #adff2f;
+    }
+}
+
+/* MEDIA QUERY SM */
+@media all and (max-width: 767px) {
+    /* Song */
+    .song {
+        flex-basis: calc( 100% / 2 );
+    }
+}
+
+/* MEDIA QUERY LG */
+@media all and (max-width: 991px) {
+    /* Song */
+    .song {
+        width: calc( 100% / 4 );
+    }
+}

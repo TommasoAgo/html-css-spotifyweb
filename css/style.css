@@ -128,6 +128,30 @@ main {
     font-size: 14px;
 }
 
+/* Song Overlay */
+.song-img {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.play i {
+    font-size: 50px;
+}
+
 /* Navbar */
 
 /* Logo */
@@ -252,67 +276,5 @@ footer {
     background-color: #282828;
 }
 
-/* MEDIA QUERY XS */
-@media all and (max-width: 560px) {
-    /* Common */
-    .navbar {
-        width: 50px;
-        text-align: center;
-        justify-content: space-between;
-    }
 
-    .xs-hidden {
-        display: none;
-    }
-
-    .nav-icon {
-        width: 70%;
-        padding: 5px 0;
-    }
-
-    /* Main Content */
-    .main-content {
-        width: calc( 100% - 50px);
-    }
-
-    /* Install App */
-    .install-app {
-        border-bottom: 0;
-    }
-
-    /* Songs */
-    .song {
-        flex-basis: calc( 100% / 2 );
-    }
-}
-
-/* MEDIA QUERY XS > */
-@media all and (min-width: 560px) {
-    .lg-hidden {
-        display: none;
-    }
-
-    .home-element {
-        padding: 5px 0 5px 20px;
-    }
-
-    .selected {
-        border-left: 3px solid #adff2f;
-    }
-}
-
-/* MEDIA QUERY SM */
-@media all and (max-width: 767px) {
-    /* Song */
-    .song {
-        flex-basis: calc( 100% / 2 );
-    }
-}
-
-/* MEDIA QUERY LG */
-@media all and (max-width: 991px) {
-    /* Song */
-    .song {
-        width: calc( 100% / 4 );
-    }
-}
+    
