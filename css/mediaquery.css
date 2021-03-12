@@ -29,7 +29,11 @@
     /* Songs */
     .song {
         flex-basis: calc( 100% / 2 );
-    }    
+    } 
+    
+    .header {
+        width: calc( 100% - 50px );
+    }
 }
 
 /* MEDIA QUERY XS > */
