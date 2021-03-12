@@ -29,7 +29,7 @@
     /* Songs */
     .song {
         flex-basis: calc( 100% / 2 );
-    }
+    }    
 }
 
 /* MEDIA QUERY XS > */

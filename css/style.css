@@ -13,20 +13,14 @@ a {
     border-radius: 50%;
 }
 
+.grey {
+    color: #686868;
+}
+
 /* COMMON */
 #app-wrapper {
     width: 100%;
     height: 100vh;
-}
-
-.flex-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
 }
 
 body {
@@ -296,7 +290,10 @@ footer {
     height: 70px;
     overflow: hidden;
     background-color: #282828;
+    padding: 5px 0;
 }
+
+
 
 
     
