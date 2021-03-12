@@ -31,8 +31,30 @@
         flex-basis: calc( 100% / 2 );
     } 
     
+    /* Header */
     .header {
         width: calc( 100% - 50px );
+    }
+
+    /* Footer */
+
+    .footer-song-wrapper {
+        width: calc( 100% / 3 );
+    }
+
+    .footer-song-title {
+        width: 10%;
+    }
+
+    /* Icons */
+
+    .icons {
+        width: 10%;
+    }
+
+    /* Footer Player */
+    .player-icons i {
+        margin: 0;
     }
 }
 
@@ -56,6 +78,11 @@
     /* Song */
     .song {
         flex-basis: calc( 100% / 2 );
+    }
+
+    /* Footer Player */
+    .player-icons i {
+        margin: 0;
     }
 }
 

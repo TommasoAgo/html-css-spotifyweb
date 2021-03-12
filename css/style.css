@@ -72,6 +72,12 @@ body {
     cursor: pointer;
 }
 
+.btn-upgrade:hover {
+    background-color: white;
+    color: #141922 !important;
+    transform: scale(1.1);
+}
+
 /* MAIN GENERAL */
 
 main {
@@ -369,6 +375,18 @@ footer {
     background-color: blue;
     width: 220px;
     height: 100%;
+}
+
+/* Footer Player */
+.player-icons i {
+    font-size: 12px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+#main-play {
+    font-size: 22px;
+    padding: 0 10px;
 }
 
 
