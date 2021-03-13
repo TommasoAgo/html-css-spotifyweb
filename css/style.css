@@ -259,7 +259,6 @@ main {
 
 
 .playlist-title {
-    color: white;
     text-transform: uppercase;
     padding-top: 10px;
 }
@@ -285,6 +284,7 @@ main {
     max-height: 70%;
     overflow-y: auto;
 }
+
 
 /* Navbar Footer */
 .navbar-footer {
@@ -364,20 +364,18 @@ footer {
     padding-left: 10px;
 }
 
-.player {
-    background-color: red;
-    min-width: 220px;
-    height: 100%;
-    flex-grow: 4;
-}
 
 .footer-nav {
-    background-color: blue;
     width: 220px;
     height: 100%;
 }
 
 /* Footer Player */
+.player-icons {
+    text-align: center;
+    padding-top: 10px;
+}
+
 .player-icons i {
     font-size: 12px;
     margin: 0 5px;
@@ -387,6 +385,117 @@ footer {
 #main-play {
     font-size: 22px;
     padding: 0 10px;
+}
+
+.selection:hover {
+    transform: scale(1.1);
+    color: #686868;
+    cursor: pointer;
+}
+
+/*  */
+.time-bar {
+    background-color: grey;
+    /* TEST */
+    width: 300px;
+    height: 3px;
+    margin: 15px 20px;
+    border-radius: 20px;
+}
+
+.time-circle {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    background-color: #adff2f;
+    position: relative;
+    display: none;
+}
+
+.fa-circle {
+    position: absolute;
+    right: -10px;
+    top: -6px;
+}
+
+.time-bar:hover {
+    cursor: pointer;
+}
+
+.time-bar:hover .time-circle {
+    display: block;
+}
+
+.grey-time {
+    width: 30%;
+    background-color: lightgray;
+    height: 100%;
+}
+
+.time-passed,
+.time-left {
+    font-size: 8px;
+}
+
+ .play-time {
+     align-items: baseline;
+ }
+
+ /* Footer Nav */
+ .footer nav {
+     width: 220px;
+     height: 100%;
+ }
+
+ .footer-nav-icons {
+     align-self: center;
+     font-size: 10px;
+ }
+
+ .footer-nav-icons i {
+     padding: 0 5px;
+ }
+
+ /* Volume Bar */
+ .volume-bar {
+     height: 2px;
+     width: 40%;
+     background-color: rgb(141, 124, 124);
+     align-self: center;
+     margin: 0 10px;
+ }
+
+.actual-volume {
+    height: 3px;
+    width: 30%;
+    background-color: lightgray;
+}
+
+.volume-bar,
+.actual-volume {
+    border-radius: 10px;
+}
+
+.volume-circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+}
+
+.volume-circle i {
+    font-size: 14px;
+}
+
+.volume-bar:hover {
+    cursor: pointer;
+}
+
+.volume-bar:hover .volume-circle {
+    display: block;
 }
 
 

@@ -93,3 +93,29 @@
         width: calc( 100% / 4 );
     }
 }
+
+/* MEDIA QUERY XS < */
+@media all and (max-width: 300px) {
+     /* Footer */
+
+     .footer-song-wrapper {
+        width: calc( 100% / 3 );
+    }
+
+    .player-wrapper {
+        width: calc( 100% / 3 );
+    }
+
+    .footer-nav {
+        width: calc( 100% / 3 );
+    }
+
+    /* Icons */
+
+
+    /* Footer Player */
+    .player-icons i {
+        margin: 0;
+    }
+}
+

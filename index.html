@@ -77,7 +77,7 @@
 
                         
                             <!-- Playlist Title -->
-                            <div class="playlist-title">
+                            <div class="playlist-title white">
                                 <h5>Playlist</h5>
                             </div>
     
@@ -444,10 +444,10 @@
                         <a class="bold grey footer-text" href="#">Brano nome</a>
                     </div>
                     <div class="icons">
-                        <a class="grey" href="#">
+                        <a class="grey hover-white" href="#">
                             <i class="far fa-heart"></i>
                         </a>
-                        <a class="grey" href="#">
+                        <a class="grey hover-white" href="#">
                             <i class="far fa-folder"></i>
                         </a>
                     </div>
@@ -459,19 +459,44 @@
 
                 <!-- Player Icons -->
                 <div class="player-icons">
-                    <i class="fas fa-random white"></i>
-                    <i class="fas fa-step-backward white"></i>
-                    <i id="main-play" class="far fa-play-circle white"></i>
-                    <i class="fas fa-step-forward white"></i>
-                    <i class="fas fa-redo-alt white"></i>
+                    <i class="fas fa-random white selection"></i>
+                    <i class="fas fa-step-backward white selection"></i>
+                    <i id="main-play" class="far fa-play-circle white selection"></i>
+                    <i class="fas fa-step-forward white selection"></i>
+                    <i class="fas fa-redo-alt white selection"></i>
                 </div>
 
                 <!-- Play Time  -->
-                
+                <div class="play-time flex-row">
+                    <div class="time-passed bold white">0.25</div>
+                    <div class="time-bar">
+                        <div class="grey-time">
+                            <div class="time-circle">
+                                <i class="fas fa-circle white"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time-left bold white">4.35</div>
+                </div>
             </div>
 
             <!-- Footer Nav -->
-            <div class="footer-nav"></div>
+            <div class="footer-nav flex-row">
+                <div class="footer-nav-icons">
+                    <i class="fas fa-list white selection"></i>
+                    <i class="fas fa-desktop white selection"></i>
+                    <i class="fas fa-volume-up white selection"></i>
+                </div>
+
+                <!-- Volume Bar -->
+                <div class="volume-bar">
+                    <div class="actual-volume">
+                        <div class="volume-circle">
+                            <i class="fas fa-circle white"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </footer>
         <!-- FOOTER ENDING -->
