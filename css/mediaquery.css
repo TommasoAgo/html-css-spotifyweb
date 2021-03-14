@@ -95,27 +95,34 @@
 }
 
 /* MEDIA QUERY XS < */
-@media all and (max-width: 300px) {
+@media all and (max-width: 430px) {
      /* Footer */
-
-     .footer-song-wrapper {
-        width: calc( 100% / 3 );
-    }
-
-    .player-wrapper {
-        width: calc( 100% / 3 );
-    }
-
-    .footer-nav {
-        width: calc( 100% / 3 );
+    
+    .footer-song-title>a {
+        font-size: 5px;
     }
 
     /* Icons */
+    .icons {
+        margin: 5px;
+    }
 
+    .icons>a,
+    .player-icons>i,
+    .footer-nav-icons>i {
+        font-size: 8px;
+    }
 
+    .footer-nav-icons>i {
+        padding: 0;
+    }
     /* Footer Player */
     .player-icons i {
         margin: 0;
+    }
+
+    #main-play {
+        padding: 0;
     }
 }
 

@@ -61,6 +61,7 @@ body {
 }
 
 /* Btn Upgrade */
+
 .btn-upgrade {
     text-transform: uppercase;
     font-size: 12px;
@@ -285,6 +286,11 @@ main {
     overflow-y: auto;
 }
 
+/* Playlist hover */
+.create-playlist:hover .playlist-icon>a, .create-playlist:hover .create-playlist>a {
+    color: white;
+}
+
 
 /* Navbar Footer */
 .navbar-footer {
@@ -336,13 +342,19 @@ footer {
 }
 
 .footer-song {
-    width: 220px;
     height: 100%;
+}
+
+.footer-song-wrapper,
+.player-wrapper,
+.footer-nav {
+    width: calc( 100% / 3 );
 }
 
 /* Footer Song Img */
 .footer-song-img {
-    width: 20%;
+    width: 40px;
+    height: auto;
     margin: 0 10px;
 }
 
@@ -393,7 +405,7 @@ footer {
     cursor: pointer;
 }
 
-/*  */
+/* Time */
 .time-bar {
     background-color: grey;
     /* TEST */
@@ -443,7 +455,7 @@ footer {
 
  /* Footer Nav */
  .footer nav {
-     width: 220px;
+     /* width: 220px; */
      height: 100%;
  }
 
