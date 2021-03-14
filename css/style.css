@@ -345,11 +345,6 @@ footer {
     height: 100%;
 }
 
-.footer-song-wrapper,
-.player-wrapper,
-.footer-nav {
-    width: calc( 100% / 3 );
-}
 
 /* Footer Song Img */
 .footer-song-img {

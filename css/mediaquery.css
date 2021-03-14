@@ -1,3 +1,79 @@
+
+/* MEDIA QUERY SM */
+@media all and (max-width: 767px) {
+    /* Song */
+    .song {
+        flex-basis: calc( 100% / 2 );
+    }
+
+    /* Footer Player */
+    .player-icons i {
+        margin: 0;
+    }
+
+    .footer-nav {
+        margin-left: 40px;
+    }
+
+    .footer-song-wrapper,
+    .player-wrapper,
+    .footer-nav {
+    width: calc( 100% / 3 );
+}
+}
+
+/* MEDIA QUERY LG */
+@media all and (max-width: 991px) {
+    /* Song */
+    .song {
+        width: calc( 100% / 4 );
+    }
+}
+
+/* MEDIA QUERY XS < */
+@media all and (max-width: 430px) {
+
+    /* Header btn */
+    .btn-upgrade {
+        font-size: 8px;
+    }
+
+     /* Footer */
+    
+    .footer-song-title>a {
+        font-size: 5px;
+    }
+
+    /* Icons */
+    .icons {
+        margin: 5px;
+    }
+
+    .icons>a,
+    .player-icons>i,
+    .footer-nav-icons>i {
+        font-size: 8px;
+    }
+
+    .footer-nav-icons>i {
+        padding: 0;
+    }
+    /* Footer Player */
+    .player-icons i {
+        margin: 0;
+    }
+
+    #main-play {
+        padding: 0;
+    }
+
+    .footer-song-wrapper,
+    .player-wrapper,
+    .footer-nav {
+    width: calc( 100% / 3 );
+}
+}
+
 /* MEDIA QUERY XS */
 @media all and (max-width: 560px) {
     /* Common */
@@ -19,6 +95,11 @@
     /* Main Content */
     .main-content {
         width: calc( 100% - 50px);
+    }
+
+    /* Btn Upgrade */
+    .btn-upgrade {
+        font-size: 8px;
     }
 
     /* Install App */
@@ -56,6 +137,10 @@
     .player-icons i {
         margin: 0;
     }
+
+    .footer-nav {
+        margin-left: 0px;
+    }
 }
 
 /* MEDIA QUERY XS > */
@@ -70,59 +155,6 @@
 
     .selected {
         border-left: 3px solid #adff2f;
-    }
-}
-
-/* MEDIA QUERY SM */
-@media all and (max-width: 767px) {
-    /* Song */
-    .song {
-        flex-basis: calc( 100% / 2 );
-    }
-
-    /* Footer Player */
-    .player-icons i {
-        margin: 0;
-    }
-}
-
-/* MEDIA QUERY LG */
-@media all and (max-width: 991px) {
-    /* Song */
-    .song {
-        width: calc( 100% / 4 );
-    }
-}
-
-/* MEDIA QUERY XS < */
-@media all and (max-width: 430px) {
-     /* Footer */
-    
-    .footer-song-title>a {
-        font-size: 5px;
-    }
-
-    /* Icons */
-    .icons {
-        margin: 5px;
-    }
-
-    .icons>a,
-    .player-icons>i,
-    .footer-nav-icons>i {
-        font-size: 8px;
-    }
-
-    .footer-nav-icons>i {
-        padding: 0;
-    }
-    /* Footer Player */
-    .player-icons i {
-        margin: 0;
-    }
-
-    #main-play {
-        padding: 0;
     }
 }
 
