@@ -1,12 +1,25 @@
 
+/* MEDIA QUERY LG */
+
+@media all and (max-width: 991px) {
+    /* Song */
+
+    .song {
+        width: calc( 100% / 4 );
+    }
+}
+
 /* MEDIA QUERY SM */
+
 @media all and (max-width: 767px) {
     /* Song */
+
     .song {
         flex-basis: calc( 100% / 2 );
     }
 
     /* Footer Player */
+
     .player-icons i {
         margin: 0;
     }
@@ -19,14 +32,105 @@
     .player-wrapper,
     .footer-nav {
     width: calc( 100% / 3 );
-}
+    }
 }
 
-/* MEDIA QUERY LG */
-@media all and (max-width: 991px) {
-    /* Song */
+/* MEDIA QUERY XS > */
+
+@media all and (min-width: 560px) {
+    .lg-hidden {
+        display: none;
+    }
+
+    .home-element {
+        padding: 5px 0 5px 20px;
+    }
+
+    .selected {
+        border-left: 3px solid #adff2f;
+    }
+}
+
+
+/* MEDIA QUERY XS */
+
+@media all and (max-width: 560px) {
+    /* Common */
+
+    .xs-hidden {
+        display: none;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        width: 50px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .nav-icon {
+        width: 70%;
+        padding: 5px 0;
+    }
+
+    /* Main Content */
+
+    .main-content {
+        width: calc( 100% - 50px);
+    }
+
+    /* Btn Upgrade */
+
+    .btn-upgrade {
+        font-size: 8px;
+    }
+
+    /* Install App */
+
+    .install-app {
+        border-bottom: 0;
+    }
+
+    /* Songs */
+
     .song {
-        width: calc( 100% / 4 );
+        flex-basis: calc( 100% / 2 );
+    } 
+    
+    /* Header */
+
+    .header {
+        width: calc( 100% - 50px );
+    }
+
+    /* Footer */
+
+    .footer-song-wrapper {
+        width: calc( 100% / 3 );
+    }
+
+    .footer-song-title {
+        width: 10%;
+    }
+
+    /* Icons */
+
+    .icons {
+        width: 10%;
+    }
+
+    /* Footer Player */
+    .player-icons i {
+        margin: 0;
+    }
+
+    .footer-nav {
+        margin-left: 10px;
+    }
+
+    .footer-nav-icons {
+        font-size: 8px;
     }
 }
 
@@ -35,6 +139,11 @@
 
     /* Header btn */
     .btn-upgrade {
+        font-size: 8px;
+    }
+
+    /* Main */
+    .main-menu li>a {
         font-size: 8px;
     }
 
@@ -71,90 +180,17 @@
     .player-wrapper,
     .footer-nav {
     width: calc( 100% / 3 );
+    }
 }
-}
 
-/* MEDIA QUERY XS */
-@media all and (max-width: 560px) {
-    /* Common */
-    .navbar {
-        width: 50px;
-        text-align: center;
-        justify-content: space-between;
-    }
-
-    .xs-hidden {
-        display: none;
-    }
-
-    .nav-icon {
-        width: 70%;
-        padding: 5px 0;
-    }
-
-    /* Main Content */
-    .main-content {
-        width: calc( 100% - 50px);
-    }
-
-    /* Btn Upgrade */
+/* MEDIA QUERY XXS (310px) */
+@media all and (max-width: 310px) {
     .btn-upgrade {
-        font-size: 8px;
+        font-size: 5px;
     }
 
-    /* Install App */
-    .install-app {
-        border-bottom: 0;
-    }
-
-    /* Songs */
-    .song {
-        flex-basis: calc( 100% / 2 );
-    } 
-    
-    /* Header */
-    .header {
-        width: calc( 100% - 50px );
-    }
-
-    /* Footer */
-
-    .footer-song-wrapper {
-        width: calc( 100% / 3 );
-    }
-
-    .footer-song-title {
-        width: 10%;
-    }
-
-    /* Icons */
-
-    .icons {
-        width: 10%;
-    }
-
-    /* Footer Player */
-    .player-icons i {
-        margin: 0;
-    }
-
-    .footer-nav {
-        margin-left: 0px;
-    }
-}
-
-/* MEDIA QUERY XS > */
-@media all and (min-width: 560px) {
-    .lg-hidden {
-        display: none;
-    }
-
-    .home-element {
-        padding: 5px 0 5px 20px;
-    }
-
-    .selected {
-        border-left: 3px solid #adff2f;
+    .footer-nav-icons {
+        font-size: 2px;
     }
 }
 

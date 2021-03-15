@@ -1,4 +1,5 @@
 /* RESET */
+
 * {
     padding: 0;
     margin: 0;
@@ -15,6 +16,7 @@ a {
 
 
 /* COMMON */
+
 #app-wrapper {
     width: 100%;
     height: 100vh;
@@ -25,6 +27,7 @@ body {
 }
 
 /* Text */
+
 .bold {
     font-weight: bold;
 }
@@ -50,6 +53,7 @@ body {
 }
 
 /* HEADER */
+
 .header {
     width: calc( 100% - 220px );
     background-color: rgba(0, 0, 0, 0.5);
@@ -106,6 +110,7 @@ main {
 }
 
 /* Main Menu */
+
 .main-menu {
     list-style-type: none;
     justify-content: center;
@@ -123,6 +128,7 @@ main {
 }
 
 /* Main Menu Selector */
+
 .bottom-selection {
     height: 2px;
     width: 30px;
@@ -132,6 +138,7 @@ main {
 }
 
 /* Music */
+
 .music {
     flex-wrap: wrap;
 }
@@ -143,17 +150,13 @@ main {
 }
 
 /* Songs */
+
 .song {
     width: calc( 100% / 6 );
     text-align: center;
     padding: 0 5px;
     display: inline-block;
     margin-bottom: 20px;
-}
-
-.song:hover .overlay,
-.song:hover .overlay-circle {
-    display: block;
 }
 
 .song img {
@@ -165,8 +168,14 @@ main {
 }
 
 /* Song Overlay */
+
 .song-img {
     position: relative;
+}
+
+.song:hover .overlay,
+.song:hover .overlay-circle {
+    display: block;
 }
 
 
@@ -207,6 +216,7 @@ main {
 /* Navbar */
 
 /* Logo */
+
 .logo {
     padding: 10px 40px;
 }
@@ -232,6 +242,7 @@ main {
 }
 
 /* Nav Icons */
+
 .nav-icon {
     width: 25px;
     display: inline-block;
@@ -251,6 +262,7 @@ main {
 }
 
 /* Playlist */
+
 .playlist-container {
     min-height: 100px;
     flex-grow: 1;
@@ -287,12 +299,14 @@ main {
 }
 
 /* Playlist hover */
-.create-playlist:hover .playlist-icon>a, .create-playlist:hover .create-playlist>a {
+
+.create-playlist:hover {
     color: white;
 }
 
 
 /* Navbar Footer */
+
 .navbar-footer {
     height: 70px;
     background-color: black;
@@ -305,11 +319,13 @@ main {
 }
 
 /* Install App */
+
 .install-app {
     border-bottom: 1px solid lightgrey;
 }
 
 /* John Doe */
+
 .profile-img {
     background-color: grey;
     border-radius: 50%;
@@ -337,6 +353,7 @@ footer {
 }
 
 /* FOOTER SONG */
+
 .footer-song-wrapper {
     padding: 10px 0;
 }
@@ -347,6 +364,7 @@ footer {
 
 
 /* Footer Song Img */
+
 .footer-song-img {
     width: 40px;
     height: auto;
@@ -358,6 +376,7 @@ footer {
 }
 
 /* Footer Song Title */
+
 .footer-song-title {
     justify-content: center;
 }
@@ -378,6 +397,7 @@ footer {
 }
 
 /* Footer Player */
+
 .player-icons {
     text-align: center;
     padding-top: 10px;
@@ -401,9 +421,9 @@ footer {
 }
 
 /* Time */
+
 .time-bar {
     background-color: grey;
-    /* TEST */
     width: 300px;
     height: 3px;
     margin: 15px 20px;
@@ -449,8 +469,8 @@ footer {
  }
 
  /* Footer Nav */
+
  .footer nav {
-     /* width: 220px; */
      height: 100%;
  }
 
@@ -464,6 +484,7 @@ footer {
  }
 
  /* Volume Bar */
+
  .volume-bar {
      height: 2px;
      width: 40%;
