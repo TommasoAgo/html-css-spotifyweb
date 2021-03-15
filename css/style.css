@@ -300,8 +300,12 @@ main {
 
 /* Playlist hover */
 
-.create-playlist:hover {
+.create-playlist:hover a {
     color: white;
+}
+
+.create-playlist:hover {
+    cursor: pointer;
 }
 
 
